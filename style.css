@@ -67,11 +67,21 @@ margin: 20px auto;
       height: auto;
       border-radius: 8px;
     }
-  body {
+  packages {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
       background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1e/10/eb/9e/simbavati-river-lodge.jpg?w=900&h=500&s=1'); /* Add your background image URL here */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #fff;
+    }
+contact {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://www.getaway.co.za/wp-content/uploads/2023/05/Jamala-Madikwe-Pool-Deck_EXT.jpg'); /* Add your background image URL here */
       background-size: cover;
       background-position: center;
       background-attachment: fixed;

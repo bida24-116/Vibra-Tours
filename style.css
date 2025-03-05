@@ -24,8 +24,7 @@ body{
       background-attachment: fixed;
       color: #fff;
 }
-        
-footer {
+footer { 
 background-color: rgba(34, 34, 34, 0.8); /* Semi-transparent background */
       color: #fff;
       text-align: center;
@@ -34,8 +33,7 @@ background-color: rgba(34, 34, 34, 0.8); /* Semi-transparent background */
       bottom: 0;
       width: 100%;
     }
- 
-header {
+      header {
       background-color: rgba(34, 34, 34, 0.8); /* Semi-transparent background */
       color: #fff;
       padding: 20px;

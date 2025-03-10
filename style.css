@@ -62,7 +62,7 @@ footer {
       background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       color: #333;
-      border-radius: 8px;
+      border-radius: 8px solid black:
     }
     .gallery {
       display: flex;
@@ -76,11 +76,6 @@ footer {
       height: auto;
       border-radius: 8px;      
         }
-    .center {
-  line-height: 200px;
-  height: 200px;
-  border: 3px solid black;
-  text-align: center;
 
    
    

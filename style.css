@@ -74,26 +74,13 @@ footer {
       width: 100%;
       max-width: 300px;
       height: auto;
-      border-radius: 8px;
-    }
-   .container {
-            border: 2px solid #000;  
-            padding: 20px;            
-            width: 300px;             
-            margin: 50px auto;        
-            text-align: center;       
+      border-radius: 8px;      
         }
     .center {
   line-height: 200px;
   height: 200px;
   border: 3px solid black;
   text-align: center;
-}
-.center p {
-  line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
-}
 
    
    

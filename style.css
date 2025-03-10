@@ -56,7 +56,7 @@ footer {
       color: #ffcc00;
     }
     .container  {
-      max-width: 1200px;
+      max-width: 1000px;
       margin: 20px auto;
       padding: 20px;
       background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */

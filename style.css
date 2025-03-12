@@ -26,9 +26,10 @@ color: black;
       background-attachment: fixed;
       color: #fff;
     }
- body {
-   background-color: grey; 
- }
+ #contact-page {
+   background-color: #f0f0f0; 
+              }
+
 footer {
       background-color: rgba(34, 34, 34, 0.8); /* Semi-transparent background */
       color: #fff;

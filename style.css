@@ -26,9 +26,9 @@ color: black;
       background-attachment: fixed;
       color: #fff;
     }
-                    body {
-  background-color: #f0f0f0; 
-                        }
+ body {
+  background-color: #f0f0f0; /* Default background color for other pages */
+}
 
 footer {
       background-color: rgba(34, 34, 34, 0.8); /* Semi-transparent background */

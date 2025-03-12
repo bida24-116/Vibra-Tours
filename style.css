@@ -15,6 +15,10 @@ p {
 color: black;
 }
 
+body {
+  background-color: #f0f0f0; 
+}
+
 #index-page {
       font-family: Arial, sans-serif;
       margin: 0;

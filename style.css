@@ -15,9 +15,6 @@ p {
 color: black;
 }
 
-body {
-  background-color: #f0f0f0; 
-}
 
 #index-page {
       font-family: Arial, sans-serif;
@@ -29,6 +26,9 @@ body {
       background-attachment: fixed;
       color: #fff;
     }
+ body {
+   background-color: grey; 
+ }
 footer {
       background-color: rgba(34, 34, 34, 0.8); /* Semi-transparent background */
       color: #fff;

@@ -40,7 +40,7 @@ footer {
       width: 100%;
     }
     header {
-      background-color: rgba(34, 34, 34, 0.8); /* Semi-transparent background */
+      background-color: rgba(34, 34, 34, 0); /* Fully transparent background */
       color: #fff;
       padding: 20px;
       text-align: center;

@@ -48,7 +48,7 @@ footer {
     nav {
       display: flex;
       justify-content: center;
-      background-color: rgba(34, 34, 34, 0); /* Fully transparent background */
+      background-color: rgba(34, 34, 34, 0.8); /* Semi-transparent background */ 
       padding: 10px;
     }
     nav a {

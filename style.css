@@ -26,6 +26,11 @@ color: black;
       background-attachment: fixed;
       color: #fff;
     }
+#packages-page{
+      display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
  
   body {
     background-color: white;

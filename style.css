@@ -82,7 +82,7 @@ footer {
       height: auto;
       border-radius: 8px;      
         }
-#feedback-page {
+#feedback-page-container {
     background-color: #ffffff;
     padding: 30px;
     border-radius: 8px;
@@ -90,7 +90,7 @@ footer {
     max-width: 500px;
     width: 100%;
 }
-.feedback-page-body{
+#feedback-page-body{
     font-family: Arial, sans-serif;
     background-color: #f4f7fb;
     margin: 0;

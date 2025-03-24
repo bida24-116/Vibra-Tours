@@ -84,10 +84,10 @@ footer {
         }
 #feedback-page {
     background-color: #ffffff;
-    padding: 0px;
-    border-radius: 0px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
     width: 100%;
     display: flex;
     flex-direction: column;

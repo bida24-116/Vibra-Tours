@@ -91,8 +91,8 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     height: auto;
+    text-align: center;
 }
 #thanks-page {
        background-color: #ffffff;

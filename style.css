@@ -29,6 +29,10 @@ color: black;
  
   body {
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
 
 footer {
@@ -70,36 +74,18 @@ footer {
       color: #333;
       border-radius: 8px solid black:
     }
-    .image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Grid with responsive columns */
-    gap: 20px;
-    padding: 20px;
-    max-width: 1200px;
-    width: 100%;
-}
-
-.image-item {
-    position: relative;
-    border-radius: 8px;
-    overflow: hidden;
-    cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.image-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-.image-item p {
-    text-align: center;
-    margin-top: 8px;
-    font-size: 16px;
-    color: #333;
-} 
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 8px;      
+    }
 #feedback-page {
     background-color: #ffffff;
     padding: 20px;

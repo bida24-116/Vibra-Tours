@@ -29,10 +29,6 @@ color: black;
  
   body {
     background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
   }
 
 footer {
@@ -74,7 +70,7 @@ footer {
       color: #333;
       border-radius: 8px solid black:
     }
-    .gallery {
+      .gallery {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
@@ -84,7 +80,7 @@ footer {
       width: 100%;
       max-width: 300px;
       height: auto;
-      border-radius: 8px;      
+      border-radius: 8px;
     }
 #feedback-page {
     background-color: #ffffff;

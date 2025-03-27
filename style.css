@@ -131,11 +131,11 @@ footer {
     border-radius: 8px;
 }
 .category-name {
-            margin-top: 10px;
-            font-size: 18px;
-            font-weight: bold;
-            color: #333;
-        }
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+ }
 .product {
             display: flex;
             justify-content: center;

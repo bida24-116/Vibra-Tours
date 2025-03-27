@@ -138,9 +138,13 @@ footer {
     color: #333;
  }
 .product {
-    display: flex;
+    display: grid;
     justify-content: center;
     gap: 30px;
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
  }
 .product-item {
     width: 200px;

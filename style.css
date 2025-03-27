@@ -138,9 +138,9 @@ footer {
     color: #333;
  }
 .product {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
  }
 .product-item {
     width: 200px;

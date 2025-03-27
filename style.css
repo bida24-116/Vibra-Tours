@@ -141,6 +141,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap; 
  }
 .product-item {
     width: 200px;

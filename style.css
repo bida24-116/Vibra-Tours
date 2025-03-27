@@ -103,7 +103,7 @@ footer {
     width: 100%;
     text-align: center;
 }
-.image-grid {
+.product {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Grid with responsive columns */
     gap: 20px;

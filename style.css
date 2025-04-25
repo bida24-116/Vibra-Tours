@@ -105,12 +105,14 @@ footer {
 }
 .categories {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Grid with responsive columns */
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 20px;
     padding: 20px;
     max-width: 1200px;
     width: 100%;
     text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
 }
 
 .category-item:hover {
@@ -133,9 +135,11 @@ footer {
 }
 .category-name {
     margin-top: 10px;
+    margin-bottom: 5px;
     font-size: 18px;
     font-weight: bold;
     color: #333;
+      
  }
 .product {
     display: grid;
@@ -144,6 +148,28 @@ footer {
     justify-content: center;
     align-items: center;
  }
+.package-location {
+      color:#333;
+      font-size:18px;
+      margin-bottom:15px;
+}
+.price-section {
+      margin: 15px 0;
+      padding: 10px o;
+      border-top: 1px;
+      border-bottom: 1px;
+}
+.price {
+  font-size: 18px;
+  font-weight:bold;
+  color:black;
+}
+.price-label {
+      font-size: 18px
+      color:blue;
+      margin-left: 5px
+}
+      
 .product-item {
     width: 200px;
     height: 200px;

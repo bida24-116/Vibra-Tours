@@ -114,6 +114,14 @@ footer {
     border: 1px solid;
     border-radius: 5px;
 }
+.categories-card{
+    background:white;
+    border:1px solid;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05)
+}
+
 
 .category-item:hover {
     transform: translateY(-10px); 

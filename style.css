@@ -187,82 +187,52 @@ footer {
  .product-item img:hover {
    transform: scale(1.05); /* Zoom effect when hovering over the image */
  } 
-.slideshow-container {
-            position: relative;
-            width: 100%;
-            height: 80vh;
-            min-height: 500px;
-            overflow: hidden;
+.slider { 
+      overflow:hidden;
+}
+.slider-figure {
+      position: relative;
+      width: 500%;
+      margin:0;
+      left:0;
+      animation:20s slider infinite;
+}
+.slider figure img {
+      float:left;
+      width:20%;
+}
+#keyframes slider{
+      0%{
+        left:0;
+     } 
+      20%{
+        left:0;
+     }
+      25%{
+        left:-100%;
+      }
+       45%{
+         left:-100%;
+      }
+       50%{
+         left:-200%;
+       }
+       70%{
+         left:-200%;
+       }
+        75%{
+          left:-300%;
         }
-        
-        /* Slides */
-        .slide {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            opacity: 0;
-            transition: opacity 1.5s ease-in-out;
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            color: white;
+        95%{
+          left:-300%;
+          }
+        100%{
+          left:-400;
         }
-        
-        /* Active Slide */
-        .slide.active {
-            opacity: 1;
-        }
-        
-        /* Slide Overlay */
-        .slide-overlay {
-            background: rgba(0, 0, 0, 0.4);
-            padding: 30px;
-            border-radius: 5px;
-            max-width: 800px;
-        }
-        
-        /* Slide Text */
-        .slide-title {
-            font-size: 3.5rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            margin-bottom: 15px;
-            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-        }
-        
-        .slide-subtitle {
-            font-size: 2rem;
-            font-weight: 300;
-            letter-spacing: 2px;
-            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-        }
-        
-        /* Navigation Dots */
-        .dots-container {
-            position: absolute;
-            bottom: 30px;
-            left: 50%;
-            transform: translateX(-50%);
-            display: flex;
-        }
-        
-        .dot {
-            width: 12px;
-            height: 12px;
-            margin: 0 5px;
-            border-radius: 50%;
-            background-color: rgba(255,255,255,0.5);
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        
-        .dot.active {
-            background-color: white;
-        }
+   
+}
+
+
    
   
 

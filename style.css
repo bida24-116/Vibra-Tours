@@ -188,9 +188,57 @@ footer {
     transition: transform 0.3s ease;
  }
  .product-item img:hover {
-   transform: scale(1.05); /* Zoom effect when hovering over the image */
+   transform: scale(1.05); 
  } 
+.lodge-features{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.feature-item{
+     background-color: white;
+     border-radius: 8px;
+     overflow: hidden;
+     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+}
+
+.feature-item img{
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px 8px 0 0;
+      object-fit: cover;
+}
+
+.feature-title{
+      font-size: 1.5em;
+      font-weight: bold;
+      color: black;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      padding: 0 20px;
+}
+
+.feature-description{
+      color: gray;
+      font-size: 1em;
+      line-height: 1.6;
+      padding: 0 20px 20px;
+}
+
+
+       
+      
+
+ 
 
    
   

@@ -105,7 +105,7 @@ footer {
 }
 .categories {
     display: grid;
-    grid-template-columns: (auto-fill, minmax(350px, 1fr));
+    grid-template-columns: (auto-fill, minmax(400px, 1fr));
     gap: 20px;
     padding: 20px;
     max-width: 1200px;
@@ -113,8 +113,9 @@ footer {
 }
 
 .category-item:hover {
-    transform: translateY(-10px); 
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+    
 }
 .category-item {
     position: relative;
@@ -122,18 +123,20 @@ footer {
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow:0 4px 8px rgba(0,0,0,0.1);
 }
 
 .category-item img {
     width: 100%;
-    height: 100px;
+    height: auto;
+    display:block;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
 }
 .category-name {
     margin-top: 10px;
     margin-bottom: 5px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     color: black;
       
@@ -147,22 +150,22 @@ footer {
  }
 .package-location {
       color:#333;
-      font-size:18px;
-      margin-bottom:15px;
+      font-size:16px;
+      margin-bottom:10px;
 }
 .price-section {
       margin: 15px 0;
       padding: 10px o;
-      border-top: 1px;
-      border-bottom: 1px;
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
 }
 .price {
-  font-size: 18px;
+  font-size: 20px;
   font-weight:bold;
   color:black;
 }
 .price-label {
-      font-size: 18px
+      font-size: 16px
       color:blue;
       margin-left: 5px
 }
@@ -187,50 +190,6 @@ footer {
  .product-item img:hover {
    transform: scale(1.05); /* Zoom effect when hovering over the image */
  } 
-.slider { 
-      overflow:hidden;
-}
-.slider-figure {
-      position: relative;
-      width: 500%;
-      margin:0;
-      left:0;
-      animation:20s slider infinite;
-}
-.slider figure img {
-      float:left;
-      width:20%;
-}
-#keyframes slider{
-      0%{
-        left:0;
-     } 
-      20%{
-        left:0;
-     }
-      25%{
-        left:-100%;
-      }
-       45%{
-         left:-100%;
-      }
-       50%{
-         left:-200%;
-       }
-       70%{
-         left:-200%;
-       }
-        75%{
-          left:-300%;
-        }
-        95%{
-          left:-300%;
-          }
-        100%{
-          left:-400;
-        }
-   
-}
 
 
    

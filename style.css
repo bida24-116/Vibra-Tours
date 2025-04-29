@@ -216,6 +216,7 @@ footer {
       display: block;
       border-radius: 8px 8px 0 0;
       object-fit: cover;
+      transition: transform 0.3s ease;
 }
 
 .feature-title{

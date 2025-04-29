@@ -241,7 +241,7 @@ footer {
 .accomodation-feature{
       display: flex;
       align-items: center;
-      max-width: 1200px;
+      max-width: 960;
       margin: 20px auto;
       padding: 20px;
 }

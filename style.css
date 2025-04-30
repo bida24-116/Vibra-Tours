@@ -186,7 +186,7 @@ footer {
 .lodge-features{
     display: grid;
     grid-template-columns:  repeat(auto-fit, minmax(350px, 1fr));;
-    gap: 60px;
+    gap: 40px;
     padding: 40px;
     max-width: 1200px;
     margin: 20 auto;

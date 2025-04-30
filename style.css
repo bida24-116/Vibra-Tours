@@ -103,9 +103,14 @@ footer {
     width: 100%;
     text-align: center;
 }
-#categories {
+.categories {
     display: flex;
     flex-direction: row;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    text-align: center;
 }
 
 .category-item:hover {
@@ -114,11 +119,6 @@ footer {
     
 }
 .category-item {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
-    max-width: 1200px;
-    text-align: center;
     position: relative;
     border-radius: 8px;
     overflow: hidden;

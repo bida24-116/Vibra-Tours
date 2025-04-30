@@ -138,15 +138,9 @@ footer {
     font-size: 20px;
     font-weight: bold;
     color: #000;
-      
+
  }
-.product {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
- }
+
 .package-location {
       color:#000;
       font-size:16px;

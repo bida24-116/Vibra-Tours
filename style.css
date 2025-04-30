@@ -103,13 +103,9 @@ footer {
     width: 100%;
     text-align: center;
 }
-.categories {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
-    max-width: 1200px;
-    text-align: center;
+#categories {
+    display: flex;
+    flex-direction: row;
 }
 
 .category-item:hover {

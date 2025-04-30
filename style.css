@@ -104,7 +104,7 @@ footer {
     text-align: center;
 }
 .categories {
-    display: flex;
+    display: grid;
     flex-direction: row;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;

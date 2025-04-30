@@ -266,7 +266,7 @@ footer {
   .accomodation-images{
         position: relative;
         flex: 1;
-        max-width: 350px;
+        max-width: 300px;
   }
 
 .accomodation-images-comtainer{

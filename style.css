@@ -184,25 +184,27 @@ footer {
  .product-item img:hover {
    transform: scale(1.05); 
  } 
+
 .lodge-features{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content:space-between;
-    padding: 20px;
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(350px, 1fr)};
+    gap:20px;
+    padding: 40px;
     max-width: 1200px;
     margin: 20 auto;
 }
-
+ 
 .feature-item{
      background-color: white;
      border-radius: 8px;
      overflow: hidden;
-     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.01);
-     flex:1 0 300px;
-     margin-bottom:30px;
+     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+     display: flex;
+     flex-direction: column;
+     align-items: stretch;
+     text-align: center;
 }
-
-
+ 
 .feature-item img{
       width: 100%;
       height: auto;
@@ -211,19 +213,19 @@ footer {
       object-fit: cover;
       transition: transform 0.3s ease;
 }
-
+ 
 .feature-item img:hover {
    transform: scale(1.05); 
- } 
+} 
 .feature-title{
       font-size: 1.5em;
       font-weight: bold;
       color: black;
-      margin-top: 15px;
+      margin-top: 20px;
       margin-bottom: 10px;
       padding: 0 20px;
 }
-
+ 
 .feature-description{
       color: gray;
       font-size: 1em;

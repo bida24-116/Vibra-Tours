@@ -162,40 +162,38 @@ footer {
       color:#000;
       margin-left: 5px
 }
-
 .lodge-features{
     display: grid;
-    grid-template-columns:  repeat(auto-fit, minmax(350px, 1fr));
-    gap:20px;
+    grid-template-columns:  repeat(3, 1fr);
+    gap: 20px;
     padding: 40px;
     max-width: 1200px;
     margin: 20 auto;
 }
- 
+
 .feature-item{
      background-color: white;
      border-radius: 8px;
      overflow: hidden;
-     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
      display: flex;
-     flex-direction: column;
-     align-items: stretch;
+     flex-direction: row;
+     align-items: center;
      text-align: center;
 }
- 
+
 .feature-item img{
       width: 100%;
-      height: 100%;
+      height: auto;
       display: block;
       border-radius: 8px 8px 0 0;
       object-fit: cover;
       transition: transform 0.3s ease;
 }
- 
+
 .feature-item img:hover {
    transform: scale(1.05); 
-} 
-
+ } 
 .feature-title{
       font-size: 1.5em;
       font-weight: bold;
@@ -204,13 +202,15 @@ footer {
       margin-bottom: 10px;
       padding: 0 20px;
 }
- 
+
 .feature-description{
       color: gray;
       font-size: 1em;
       line-height: 1.6;
       padding: 0 20px 20px;
 }
+
+
 
 .accomodation-feature{
       display: flex;

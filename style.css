@@ -68,7 +68,7 @@ footer {
       background-color: rgba(128, 128, 128, 0.9); 
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       color: white;
-      border-radius: 8px solid black:
+      border-radius: 8px solid black;
     }
       .gallery {
       display: flex;
@@ -126,13 +126,13 @@ footer {
     box-shadow:0 4px 8px rgba(0,0,0,0.1);
 }
 
-.category-item img {
+.category-item img{
     width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 8px;
 }
-.category-name {
+.category-name{
     margin-top: 10px;
     margin-bottom: 5px;
     font-size: 20px;
@@ -140,26 +140,26 @@ footer {
     color: #000;
 
  }
-.package-location {
+.package-location{
       color:#000;
       font-size:16px;
       margin-bottom:10px;
 }
-.price-section {
+.price-section{
       margin: 15px 0;
       padding: 10px o;
       border-top: 1px solid #eee;
       border-bottom: 1px solid #eee;
 }
-.price {
+.price{
   font-size: 20px;
   font-weight:bold;
   color:#000;
 }
-.price-label {
-      font-size: 16px
+.price-label{
+      font-size: 16px;
       color:#000;
-      margin-left: 5px
+      margin-left: 5px;
 }
 .lodge-features{
     display: grid;
@@ -168,6 +168,7 @@ footer {
     padding: 40px;
     max-width: 1200px;
     margin: 20 auto;
+    align-items: center;
 }
 
 .feature-item{
@@ -180,7 +181,6 @@ footer {
      align-items: center;
      text-align: center;
 }
-
 .feature-item img{
       width: 100%;
       height: auto;
@@ -189,7 +189,6 @@ footer {
       object-fit: cover;
       transition: transform 0.3s ease;
 }
-
 .feature-item img:hover {
    transform: scale(1.05); 
  } 
@@ -201,43 +200,34 @@ footer {
       margin-bottom: 10px;
       padding: 0 20px;
 }
-
 .feature-description{
       color: gray;
       font-size: 1em;
       line-height: 1.6;
       padding: 0 20px 20px;
 }
-
-
-
 .accomodation-feature{
       display: flex;
       align-items: center;
       max-width: 960px;
       margin: 20px auto;
       padding: 20px;
-      border-radius: 8px
+      border-radius: 8px;
 }
-
 .accomodation-type{
       flex: 1;
       margin-right: 30px;
 }
-
 .accomodation-type h2{
       font-size: 2em;
       margin-bottom: 10px;
       color: #333;
 }
-
-
- .accomodation-description{
+.accomodation-description{
        line-height: 1.6;
        color: #333;
  }
-
-  .accomodation-images{
+.accomodation-images{
         position: relative;
         flex: 1;
         max-width: 300px;
@@ -259,8 +249,8 @@ footer {
 .image-controls{
       position: absolute;
       bottom: -30px;
-      left: 50%
-      transform: translateX(-50%)
+      left: 50%;
+      transform: translateX(-50%);
       display: flex;
       gap: 10px;
 }

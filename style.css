@@ -108,7 +108,7 @@ footer {
     grid-template-columns: (auto-fill, minmax(400px, 1fr));
     gap: 20px;
     padding: 20px;
-    max-width: 1000px;
+    max-width: 1200px;
     text-align: center;
 }
 
@@ -128,8 +128,8 @@ footer {
 
 .category-item img{
     display: block;
-    width: 80%;
-    height: 80%;
+    width: auto;
+    height: 100%;
     object-fit: cover;
     border-radius: 8px;
 }

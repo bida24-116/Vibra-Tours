@@ -118,8 +118,6 @@ footer {
     
 }
 .category-item {
-    display: grid;
-    grid-template-columns: (auto-fill, minmax(400px, 1fr));
     position: relative;
     border-radius: 8px;
     overflow: hidden;
@@ -130,7 +128,7 @@ footer {
 
 .category-item img{
     display: block;
-    width: 100%;
+    width: auto;
     height: auto;
     object-fit: cover;
     border-radius: 8px;

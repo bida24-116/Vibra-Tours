@@ -82,6 +82,16 @@ footer {
       height: auto;
       border-radius: 8px;
     }
+.home section{
+      padding: 200px 20px;
+      text-align: center;
+}
+.home section h1{
+      font-size: 2.5em;
+      font-weight: bold;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 #feedback-page {
     background-color: #ffffff;
     padding: 20px;

@@ -113,14 +113,17 @@ footer {
     width: 100%;
     text-align: center;
 }
+.categories-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      
+      
 .categories {
     display: grid;
     grid-template-columns: (auto-fit, minmax(300px, 1fr));
     gap: 20px;
-    padding: 20px;
-    max-width: 1200px;
     text-align: center;
-    margin: 0 auto
 }
 
 .category-item:hover {

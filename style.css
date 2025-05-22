@@ -113,7 +113,7 @@ footer {
     width: 100%;
     text-align: center;
 }
-.categories-container {
+#categories-container {
       max-width: 1200px;
       margin: 0 auto;
       padding: 20px;

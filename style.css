@@ -272,6 +272,8 @@ header p {
 }
 .main-reason{
       color: black;
+      background-color:  rgba(255, 255, 255, 0.9);
+      padding: 15px;
 }
 
 

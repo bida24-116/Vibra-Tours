@@ -156,6 +156,7 @@ footer {
     gap: 30px;
     padding: 40px;
     max-width: 1200px;
+    max-height: 1200px;
     margin: 0 auto;
     align-items: center;
 }

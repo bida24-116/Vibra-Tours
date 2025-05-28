@@ -183,7 +183,7 @@ footer {
       height: 100%;
       display: block;
       border-radius: 8px 8px 0 0;
-      object-fit: contain;
+      object-fit: cover;
       transition: transform 0.3s ease;
 }
 .feature-item img:hover {
